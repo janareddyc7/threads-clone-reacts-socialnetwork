@@ -41,7 +41,7 @@ const Feed = () => {
     e.preventDefault();
 
     const payload = {
-      "owner_id":"64ad7d3975faf6831d86",
+      "owner_id":
       "body": threadBody,
       "image": threadImg
     }
