@@ -16,3 +16,6 @@ export const functions = new Functions(client)
 export const storage = new Storage(client)
 
 export default client;
+
+
+// keep .env

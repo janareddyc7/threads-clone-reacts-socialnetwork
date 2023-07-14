@@ -20,7 +20,7 @@ const Thread = ({ thread , setThreads}) => {
   const [threadBody,setThreadBody] = useState('');
   const [owner, setOwner] = useState(null);
   const [threadInstance, setThreadInstance] = useState(thread);
-  const currentUserId = "64ad7d3975faf6831d86"
+  const currentUserId = 
 
   useEffect(() => {
     if(thread?.owner_id){
