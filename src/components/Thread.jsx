@@ -34,7 +34,7 @@ const Thread = ({ thread , setThreads}) => {
       "owner_id": thread.owner_id
     }
     const response = await functions.createExecution(
-      '64ad9b2da8fa5da4c67b',
+      '',
       JSON.stringify(payload),
       );
     
